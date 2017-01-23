@@ -51,6 +51,8 @@ config['postgresql']['db_superuser_password'] = '22c056a25228b48c3160b90cebb50f6
 config['opscode_solr4'] = {}
 config['opscode_solr4']['external'] = true
 config['opscode_solr4']['external_url'] = 'http://127.0.0.1:9200'
+
+config['opscode_erchef'] = {}
 config['opscode_erchef']['search_provider'] = 'elasticsearch'
 config['opscode_erchef']['search_queue_mode'] = 'batch'
 
