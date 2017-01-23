@@ -29,7 +29,7 @@ default['chef_server']['automate_host'] = nil
 config = default['chef-server']['configuration'] = {}
 
 config['use_chef_backend'] = true
-config['chef_backend_members'] = ["10.0.2.15"] # needs to be discovered in recipe
+config['chef_backend_members'] = ['10.0.2.15'] # needs to be discovered in recipe
 
 config['haproxy'] = {}
 config['haproxy']['remote_postgresql_port'] = 5432
