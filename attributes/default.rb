@@ -24,6 +24,7 @@
 #     )
 #
 
+default['chef_stack']['admin'] = 'jhud'
 default['chef_server']['automate_host'] = nil
 config = default['chef-server']['configuration'] = {}
 
